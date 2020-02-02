@@ -27,7 +27,7 @@ export const IndexPage = () => (
                 <li class="tite-content__container__list__item">Me</li>
                 <li class="title-content__container__list__item">You</li>
                 <li class="title-content__container__list__item">Us</li>
-                <li class="title-content__container__list__item" css={style.emphesis}>This</li>
+                <li class="title-content__container__list__item logo-emphesis">This</li>
             </ul>
         </div>
     </div>
