@@ -6,8 +6,9 @@ import { LunrSearch } from './LunrSearch'
 
 const style = {
   container: css`
-    background: #ff5700;
+    //background: #ff5700;
     margin-bottom: 1.45rem;
+    display: none;
   `,
   wrapper: css`
     display: grid;
@@ -37,12 +38,12 @@ interface HeaderProps {
 }
 
 export const Header = ({ title }: HeaderProps) => (
-  <div css={style.container}>
-    <div css={style.wrapper}>
-      <h1 css={style.title}>
-        <TitleLink to="/">{title}</TitleLink>
-      </h1>
-      <LunrSearch limit={10} />
-    </div>
+    <div css={style.container}>
+      <div css={style.wrapper}>
+          <h1 css={style.title}>
+              <TitleLink to="/">{title}</TitleLink>
+          </h1>
+          <LunrSearch limit={10} />
+      </div>
   </div>
 )

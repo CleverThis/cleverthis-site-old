@@ -31,14 +31,15 @@ const gatsbyRemarkPlugins = [
 
 module.exports = {
   siteMetadata: {
-    title: 'TypeScript Gatsby Starter',
-    author: 'Luís Rodrigues',
-    description: 'A Gatsby starter using TypeScript.',
-    siteUrl: 'https://goblindegook-gatsby-starter-typescript.netlify.com'
+    title: 'CleverThis',
+    author: 'Jeffrey Phillips Freeman',
+    description: 'The CleverThis website.',
+    siteUrl: 'http://CleverThis.com'
   },
   plugins: [
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
