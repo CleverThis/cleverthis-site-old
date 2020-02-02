@@ -1,0 +1,16 @@
+image: node:latest
+
+cache:
+  paths:
+  - vendor
+
+pages:
+  script:
+  - npm install --global gatsby-cli
+  - npm install
+  - gatsby build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
