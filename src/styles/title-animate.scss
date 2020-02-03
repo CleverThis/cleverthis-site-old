@@ -1,23 +1,27 @@
 body {
   width: 100%;
   height: 100%;
-  position: fixed;
-//  background-color: #34495e;
+  color: white;
+  overflow: auto;
 }
 
 .title-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow:hidden;
-
-  font-family: 'Lato', sans-serif;
-  font-size: 35px;
-  line-height: 40px;
-  color: #ecf0f1;
+  position: relative;
+  padding-top: 49vh;
+  padding-bottom: 49vh;
 
   &__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ecf0f1;
+
     font-weight: 600;
     overflow: hidden;
     height: 40px;
