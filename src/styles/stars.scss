@@ -28,7 +28,7 @@ html {
     height: 1px;
     background: transparent;
     box-shadow: multiple-box-shadow(7000);
-    animation			: animStar 150s linear infinite;
+    animation			: animStar 600s linear infinite;
     z-index: -5;
 
   &:after {
@@ -70,7 +70,7 @@ html {
     height: 3px;
     background: transparent;
     box-shadow:  multiple-box-shadow(1000);
-    animation: animStar 450s linear infinite;
+    animation: animStar 150s linear infinite;
     z-index: -3;
 
   &:after {
