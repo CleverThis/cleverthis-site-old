@@ -59,9 +59,11 @@ export const IndexPage = () => (
             <div className="textcard-content">
               <h2>The Cloud</h2>
               <p>
-                The cloud is a place of fluffiness with things of fluff and rain and rainbows.
-                Fluffiness is how soft something is, rocks arent fluffy, clouds are. So buy our
-                product and be fluffy!
+                Large corperations are in control, we call it the cloud, run by rich corperations
+                that only see you as a commodity. Meanwhile most computers in our community sit idle
+                throughout the day. It is time the community owns the cloud, we are taking control
+                again. Its our privacy, our data, our ideas, now its our rules. Fair prices set by
+                the community, and the profits go back to the community, not large corperations.
               </p>
             </div>
           </div>
