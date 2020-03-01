@@ -1,0 +1,41 @@
+.comet {
+    background:url(/comet.png) no-repeat;
+    z-index:0;
+    width: 93px;
+    height: 43px;
+    margin: 0 !important;
+    position: relative;
+    left: -150px;
+}
+
+.nebula {
+    background:url(/nebula.png) no-repeat;
+    z-index:0;
+    width: 1985px;
+    height: 669px;
+    margin: 0 !important;
+    position: relative;
+    left: -500px;
+}
+
+.textcard {
+    background: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    width: 40vh;
+}
+
+.textcard-cloud {
+    position: relative;
+    top: -300px;
+    float: right;
+    margin-right: 100px;
+}
+
+.textcard-content {
+    margin: 25px;
+}
+
+#animation-end {
+    margin-top: 10000px;
+}
