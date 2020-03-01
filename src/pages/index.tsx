@@ -30,19 +30,19 @@ export const IndexPage = () => (
     </div>
     <div id="trigger-comet" />
     <Controller>
-      <Scene triggerElement="#trigger-comet" duration={1200} pin={false}>
+      <Scene triggerElement="#trigger-comet" duration={1200} offset={300} pin={false}>
         {progress => (
           <Tween
             from={{
               css: {
                 left: '-150px',
-                top: '-35vh'
+                top: '-25vh'
               }
             }}
             to={{
               css: {
                 left: '120vw',
-                top: '30vh'
+                top: '60vh'
               }
             }}
             totalProgress={progress}
@@ -52,7 +52,7 @@ export const IndexPage = () => (
           </Tween>
         )}
       </Scene>
-      <Scene duration={4800} offset={250} pin>
+      <Scene duration={1200} offset={250} pin>
         <div className="cloud-section">
           <div className="nebula" />
           <div className="textcard textcard-cloud">
