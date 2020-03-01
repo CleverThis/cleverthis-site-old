@@ -35,14 +35,14 @@ export const IndexPage = () => (
           <Tween
             from={{
               css: {
-                left: '-150px',
-                top: '-25vh'
+                left: '-10%',
+                top: '20%'
               }
             }}
             to={{
               css: {
-                left: '120vw',
-                top: '60vh'
+                left: '120%',
+                top: '50%'
               }
             }}
             totalProgress={progress}
